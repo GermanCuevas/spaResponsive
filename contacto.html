@@ -1,0 +1,63 @@
+<div class="main--form">
+    <div class="panel--form">
+        <div class="panel">
+            <h1 class="panel__head">Crea tu cuenta</h1>
+            <p class="panel__subheading">Ya tienes tu cuenta ? <a class="panel__a" href="#">Ingresa ahora</a></p>
+            <form action="">
+                <div class="input">
+                    <label for="email-address">Email</label>
+                    <input type="email" required id="email-address">
+                </div>
+                <div class="name">
+                    <div class="input">
+                        <label for="first-name">Nombre</label>
+                        <input type="text" required id="first-name">
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Apellido</label>
+                        <input type="text" required id="last-name">
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" required id="password">
+                </div>
+                <p class="date-of-birth__heading">Fecha de nacimiento</p>
+                <div class="date-of-birth">
+                    <div class="input">
+                        <label for="day">Dia</label>
+                        <input type="number" required id="day" min="1" max="31">
+                    </div>
+                    <div class="dropdown">
+                        <label for="month">Mes</label>
+                        <select name="month" id="month">
+                            <option value="enero">Enero</option>
+                            <option value="febrero">Febrero</option>
+                            <option value="marzo">Marzo</option>
+                            <option value="abril">Abril</option>
+                            <option value="abril">Mayo</option>
+                            <option value="abril">Junio</option>
+                            <option value="abril">Julio</option>
+                            <option value="abril">Agosto</option>
+                            <option value="abril">Septiembre</option>
+                            <option value="abril">Octubre</option>
+                            <option value="abril">Noviembre</option>
+                            <option value="abril">Diciembre</option>
+                        </select>
+                    </div>
+
+                    <div class="input">
+                        <label for="year">Año</label>
+                        <input type="number" required id="year" min="1900" max="2020">
+                    </div>
+                </div>
+                <p class="consents">
+                    Al hacer click en Crear Cuenta, aceptas los <a class="panel__a" href="#">Terminos y condiciones</a>,
+                    asi tambien como
+                    las <a class="panel__a" href="#">Politicas de Privacidad</a>.
+                </p>
+                <button class="btn--form" type="submit">Crear Cuenta</button>
+            </form>
+        </div>
+    </div>
+</div>
